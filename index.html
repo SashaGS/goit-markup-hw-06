@@ -56,6 +56,24 @@
             </li>
           </ul>
         </address>
+        <button class="header-buttom" type="button">
+          <svg class="icon-header-menu" width="24" height="24">
+            <use href="./images/icons.svg#icon-solid_menu"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button class="btnmobile-menu-close">Close</button>
+          <nav class="mobile-menu-nav">Navigation</nav>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -63,7 +81,7 @@
     <main class="page-main">
       <!-- hero section -->
 
-      <section class="hero section">
+      <section class="hero section hidden">
         <div class="container">
           <div class="hero-content">
             <h1 class="hero-title">Effective Solutions for Your Business</h1>
@@ -73,7 +91,7 @@
       </section>
 
       <!-- benefit section -->
-      <section class="page-benefit section">
+      <section class="page-benefit section hidden">
         <div class="container">
           <h2 class="visually-hidden">Invisible header benefit</h2>
           <ul class="benefit-list">
@@ -130,7 +148,7 @@
       </section>
 
       <!-- our team -->
-      <section class="page-team section">
+      <section class="page-team section hidden">
         <div class="container">
           <h2 class="team-header">Our Team</h2>
           <ul class="team-list">
@@ -312,7 +330,7 @@
       </section>
 
       <!-- aur portfolio -->
-      <section class="portfolio section">
+      <section class="portfolio section hidden">
         <div class="container">
           <h2 class="portfolio-header">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -436,7 +454,7 @@
     </main>
 
     <!-- footer section -->
-    <footer class="page-footer">
+    <footer class="page-footer hidden">
       <div class="container footer-wraper">
         <div class="footer-text">
           <nav class="footer-nav">
@@ -494,7 +512,7 @@
               placeholder="E-mail"
             />
 
-            <button class="btn-footer-form"     type="submit">
+            <button class="btn-footer-form" type="submit">
               Subscribe
               <svg class="footer-bt-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-telegram"></use>
@@ -506,7 +524,7 @@
     </footer>
 
     <!-- modal window is-open-->
-    <div class="backdrop">
+    <div class="backdrop hidden">
       <div class="modal">
         <!-- <div class="modal-content"> -->
         <button class="modal-btn" type="button" aria-label="close modal button">

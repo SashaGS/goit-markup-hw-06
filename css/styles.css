@@ -371,7 +371,7 @@ ol {
 @media screen and (min-width:768px) {
     
     .hero{
-        max-width: 768px;
+        min-width: 768px;
         padding-top: 112px;
     }
 
@@ -407,7 +407,8 @@ ol {
    display: none;
 }
 
-.page-benefit.section{
+.page-benefit{
+    max-width: 320px;
     padding: 96px 16px;
 }
 
@@ -437,5 +438,58 @@ ol {
     color: #434455;
 }
 
+@media screen and (min-width:768px){
+    .page-benefit{
+        max-width: 768px;
+    }
+    .benefit-list {       
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap:24px;
+    }
+    .benefit-item {
+        width: calc((100% - 24px)/2);
+    }
+}
+
+@media screen and (min-width:1158px){
+    
+    .page-benefit{
+        max-width: 1158px;
+        padding:120px 0;
+    }
+    
+    .benefit-list {
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .benefit-item {
+        max-width: 264px;
+    }
+
+    .benefit-wraper{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        padding: 24px 100px;
+        background: #f4f4fd;
+        margin-bottom: 8px;
+    }
+
+    .benefit-icon{
+        display: block;
+    }
+}
 
 /* #endregion  */
+
+/* #region team */
+
+
+
+/* #endregion */

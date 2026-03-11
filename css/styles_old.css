@@ -52,9 +52,9 @@
     padding: 0;
 } */
 
-a{
+/* a{
     text-decoration: none;
-}
+} */
 
 address{
     font-style: normal;
@@ -70,9 +70,9 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 0;
 }
 
-input,textarea{
+/* input,textarea{
     outline: none;
-}
+} */
 
 /* #endregion */
 
@@ -608,7 +608,7 @@ input,textarea{
 
 /* #region modal window*/
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -622,15 +622,15 @@ input,textarea{
 
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: opacity,visibility;
-}
+} */
 
-.backdrop.is-open{
+/* .backdrop.is-open{
     opacity: 1;
     visibility:visible;
     pointer-events:initial;
-}
+} */
 
-.modal {
+/* .modal {
     position: absolute;
     padding-top:72px; 
     padding-left: 24px;
@@ -644,18 +644,17 @@ input,textarea{
     border-radius: 4px;
 
     transform: translate(-50%, -50%);
-    /* transform:translateX(-204px) translateY(-292px);  */
+    /* transform:translateX(-204px) translateY(-292px);  
 
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background: #fcfcfc;
-
-}
+} */
 
 /* .modal-content{
     padding: 72px 24px 24px 24px;
 } */
 
-.modal-btn {
+/* .modal-btn {
    display: flex;
    justify-content: center;
    align-items: center; 
@@ -670,19 +669,19 @@ input,textarea{
 
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.modal-btn:hover,
+/* .modal-btn:hover,
 .modal-btn:focus{
     fill: #fff ;
     background-color:#404BBF;
-}
+} */
 
 /* .modal-btn:hover+.modal-btn-icon{
     fill: #fff ;
     background-color:#404BBF;
 } */
- .modal-btn:hover .modal-btn-icon
+ /* .modal-btn:hover .modal-btn-icon
  {
     fill: #fff ;
     background-color:#404BBF;
@@ -696,30 +695,25 @@ input,textarea{
 .modal-btn-icon{
     color: currentColor;
     stroke-width: 1px; 
-    /* stroke: rgba(0, 0, 0, 0.1); */
     fill: #2e2f42 ;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* .modal-btn-icon:hover,
 .modal-btn-icon:focus{
    fill: #fff ;
 } */
 
-.modal-header{
+/* .modal-header{
     width: 360px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-
-     /*  margin-top:72px; */
-    /* margin-right: 24px;
-    margin-left: 24px;  */
     margin-bottom: 16px;
-}
+} */
 
 /* .feedback-form { */
     /* display: flex;
@@ -731,7 +725,7 @@ input,textarea{
 /* } */
 
 
-.feedback-label{
+/* .feedback-label{
     display: block;
     font-weight: 400; 
     font-size: 12px;
@@ -740,9 +734,9 @@ input,textarea{
     color: #8e8f99;
 
     margin-bottom:4px;   
-}
+} */
 
-.feedback-tel{
+/* .feedback-tel{
     margin-bottom: 8px;
 }
 
@@ -756,10 +750,9 @@ input,textarea{
 
 .feedback-field {
     position: relative;
-    /* margin-bottom: 8px; */
-}
+} */
 
-.feedback-input {
+/* .feedback-input {
     border: 1px solid #2e2f4266;
     border-radius: 4px;
     width: 360px;
@@ -767,39 +760,36 @@ input,textarea{
     padding: 11px 38px;
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.feedback-input:focus{
-    /* border-color: #2e2f4266; */
+/* .feedback-input:focus{
     border-color:#4d5ae5;
 }
 
 .feedback-input:focus + .feedback-icon {
- 
-    /* fill: #2E2F42; */
     fill:#4D5AE5;
-}
+} */
 
 
-.feedback-icon {
+/* .feedback-icon {
    position: absolute; 
    top: 50%;
    left: 16px;
    transform: translateY(-50%); 
 
-   /* fill:#4D5AE5 ; */
+   
    fill:#2E2F42; 
    pointer-events: none;
 
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-}
+} */
 
-.feedback-texterea {
+/* .feedback-texterea {
     margin-bottom: 16px;
-}
+} */
 
-.feedback-comment{
+/* .feedback-comment{
     resize: none;
     border: 1px solid #2e2f4266;
     border-radius: 4px;
@@ -816,9 +806,9 @@ input,textarea{
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
-}
+} */
 
-.feedback-comment::placeholder{
+/* .feedback-comment::placeholder{
     color: #8e8f99;
 }
 
@@ -831,57 +821,47 @@ input,textarea{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.feedback-agrement {
-    
+/* .feedback-agrement {  
     display: flex;
     flex-direction: row;
     justify-content:center; 
     align-items: center;
-
     gap: 8px;
-
     font-weight: 400;
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.04em;
     color: #8e8f99;
     margin-bottom: 24px;
-}
+} */
 
-
-
-.feedback-toggler {
+/* .feedback-toggler {
    display: inline-flex;
    justify-content: center;
    align-items: center;
-   /* margin-right: 8px;  */
    width: 16px;
    height: 16px;
-   /* background-color:transparent; */
    border-radius: 2px;
    border: 1px solid rgba(46, 47, 66, 0.4);
 
    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
    transition-property: border-color,background-color;
    cursor: pointer;
-}
+} */
 
-.feedback-checkbox:checked + .feedback-toggler {
-    /* border-radius: 2px; */
-    /* border: 1px solid #404bbf; */
+/* .feedback-checkbox:checked + .feedback-toggler {
     border-color: transparent;
     background-color: #404bbf;
-    /* fill: #f4f4fd ; */
 }
 
 .feedback-checkbox:checked + .feedback-toggler > .feedback-toggler-icon {
     opacity: 1;
 
-}
+} */
 
-.feedback-toggler-icon { 
+/* .feedback-toggler-icon { 
     fill: #f4f4fd ;
     opacity: 0;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -892,12 +872,11 @@ input,textarea{
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
-}
+} */
 
 
-.btn.modal-form {
+/* .btn.modal-form {
     font-weight: 500;
-    /* font-size: 16px; */
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
@@ -912,15 +891,13 @@ input,textarea{
     margin-right: auto;
     background-color: #4d5ae5;
     margin-left: auto;
-    /* background-color: ; */
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* margin-bottom: 24px; */
-}
+} */
 
-.btn.modal-form:hover,
+/* .btn.modal-form:hover,
 .btn.modal-form:focus{
     background-color: #404bbf;
-}
+} */
 /* #endregion */
 
 /* #region footer form*/

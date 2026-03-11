@@ -1201,14 +1201,14 @@ a {
 .modal {
     position: absolute;
     padding-top:72px; 
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
 
     top:50%;
     left:50%; 
-    width: 408px;
-    min-height: 584px;
+    width: 288px;
+    min-height: 640px;
     border-radius: 4px;
 
     transform: translate(-50%, -50%);
@@ -1261,7 +1261,7 @@ a {
 }
 
 .modal-header{
-    width: 360px;
+    width: 256px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -1299,9 +1299,9 @@ a {
 .feedback-input {
     border: 1px solid #2e2f4266;
     border-radius: 4px;
-    width: 360px;
+    width: 256px;
     height: 40px;
-    padding: 11px 38px;
+    padding: 8px 0;
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1436,6 +1436,46 @@ a {
 .btn.modal-form:hover,
 .btn.modal-form:focus{
     background-color: #404bbf;
+}
+
+@media screen and (min-width:768px) {
+    .modal {
+        padding-top:112px; 
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 24px;
+        width: 408px;
+        min-height: 584px;
+    }
+
+    .modal-header{
+        width: 100%;
+    }
+
+    .feedback-input {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:1158px) {
+    .modal {
+        padding-top:112px; 
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 24px;
+        width: 408px;
+        min-height: 584px;
+    }
+
+    .modal-header{
+        width: 100%;
+    }
+
+    .feedback-input {
+        width: 100%;
+    }    
+    
 }
 
 /* #endregion */

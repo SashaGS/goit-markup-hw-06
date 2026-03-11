@@ -315,13 +315,6 @@ a {
 }
 
 .mobil-nav-item:first-child{
-<<<<<<< HEAD
-=======
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
->>>>>>> d9ce613f24f7dcc676da35da2a0501578d95616f
     color: #404bbf;
 }
 
@@ -337,7 +330,6 @@ a {
     margin-bottom: 40px;
 }
 
-<<<<<<< HEAD
 .mb-menu-contacts{
     max-width: 193px;
     margin-bottom:48px;
@@ -396,8 +388,6 @@ a {
 }
 
 
-=======
->>>>>>> d9ce613f24f7dcc676da35da2a0501578d95616f
 @media screen and (min-width:768px) {
     .mobile-menu {
         display: none;

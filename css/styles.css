@@ -94,7 +94,7 @@ a {
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
-        padding: 0 15px;
+        padding: 0 16px;
     }
 }
 /* #endregion  */
@@ -111,7 +111,7 @@ a {
     align-items: center;
     justify-content: space-between;
 
-    padding-left: 16px;
+    /* padding-left: 16px; */
     max-width: 320px;
     margin-left: auto;
     margin-right: auto;
@@ -456,7 +456,7 @@ a {
 
 .hero {
     /* display: block; */
-    padding: 72px 52px;
+    /* padding: 72px 52px; */
     background-color: #2e2f42;
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
@@ -464,7 +464,7 @@ a {
         url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 320px;
+    /* max-width: 320px; */
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
@@ -569,7 +569,7 @@ a {
 
 .page-benefit{
     max-width: 320px;
-    padding-top: 96px;
+    padding: 96px 16px; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -603,6 +603,7 @@ a {
 @media screen and (min-width:768px){
     .page-benefit{
         max-width: 768px;
+        padding: 96px 108px;
     }
     .page-benefit.section>.container{
         max-width: 100%;
@@ -787,9 +788,9 @@ a {
         row-gap: 64px;
     }
 
-    .team-item{
+    /* .team-item{
         gap: calc((100% - 24px)/2);
-    }
+    } */
 
 }
 
@@ -870,7 +871,7 @@ a {
     transform: translateY(0);
 }
 
-.portfolio-item:hover {
+.portfolio-item {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 
 }
@@ -962,9 +963,14 @@ a {
 
     .portfolio-item {
         max-width: calc((100% - 48px) / 3);
+        box-shadow: none;
     }
     .portfolio-item:not(:last-child){
         margin-bottom:0;
+    }
+
+    .portfolio-item:hover {
+        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     }
 }
 
@@ -1163,7 +1169,7 @@ a {
 @media screen and (min-width:768px){
     .page-footer {
         min-width: 768px;
-        padding-left: 108px;
+        /* padding-left: 108px; */
     }   
     
     .footer-text {
@@ -1176,7 +1182,7 @@ a {
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items:baseline;
-       
+        padding-left: 108px;
     }
 
      .footer-nav {

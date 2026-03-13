@@ -94,7 +94,7 @@ a {
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
-        padding: 0 16px;
+        padding: 0 15px;
     }
 }
 /* #endregion  */
@@ -531,7 +531,7 @@ a {
     
     .hero{
         min-width: 768px;
-        padding-top: 112px;
+        padding: 112px 0;
     }
 
     .hero-title {

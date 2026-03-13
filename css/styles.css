@@ -410,9 +410,9 @@ a {
 
 .mb-icon-list{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    /* flex-direction: row; */
     gap: 40px;
 }
 
@@ -469,6 +469,15 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
+
+@media (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-2x.jpg);
+    }
+} 
 
 .hero-content {
     display: flex;
@@ -560,7 +569,7 @@ a {
 
 .page-benefit{
     max-width: 320px;
-    padding: 96px 16px;
+    padding-top: 96px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -676,7 +685,8 @@ a {
     /* justify-content:space-between; */
     align-items: center; 
     /* gap: calc((100% - 24px * 3)/4);  */
-    gap: 32px;
+    /* gap: 32px; */
+    gap:72px;
 }
 
 .team-item {
@@ -1421,11 +1431,6 @@ a {
 }
 
 .feedback-agrement {  
-    display: flex;
-    flex-direction: row;
-    justify-content:center; 
-    align-items: center;
-    gap: 8px;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.33;

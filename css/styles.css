@@ -1021,9 +1021,9 @@ a {
     padding: 96px 16px;
 } */
 
-.footer-wraper {
+/* .footer-wraper {
     padding: 96px 16px;
-}
+} */
 
 .footer-text {
     width: 100%;
@@ -1056,6 +1056,7 @@ a {
 }
 
 .footer-paragraf {
+    text-align: left;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;

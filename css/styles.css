@@ -111,8 +111,8 @@ textarea {
     .container {
         max-width: 768px;
 
-        outline: 2px solid red;
-        outline-offset: -2px;
+        /* outline: 2px solid red;
+        outline-offset: -2px; */
     }
 }
 
@@ -127,8 +127,8 @@ textarea {
         max-width: 1158px;
         padding: 0 15px;
 
-        outline: 2px solid red;
-        outline-offset: -2px;
+        /* outline: 2px solid red;
+        outline-offset: -2px; */
     }
 }
 

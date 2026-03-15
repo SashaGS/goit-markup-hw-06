@@ -42,10 +42,6 @@ input,textarea{
     outline: none;
 }
 
-/* section {
-    padding: 120px 0;
-} */
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -89,7 +85,7 @@ textarea {
     outline: none;
 }
 
-/* #endregion */ */
+/* #endregion */ 
 
 /* #region common */
 
@@ -295,7 +291,7 @@ textarea {
     }
 }
 /* #endregion */
-/* 
+
 /* #region mobile menu*/
 .mobile-menu {
     position: fixed;
@@ -373,18 +369,24 @@ textarea {
 /* -------------- */
 
 .mobile-menu-nav{
-    display: flex;
+    /* display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: column;
-    gap: 40px;
+    flex-direction: column; */
     max-width: 151px;
     margin-bottom: auto;
 }
 
-.mobil-nav-item:not(:last-child){
-    margin-bottom: 40px;
+.mobil-nav-list{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap:40px;
 }
+
+/* .mobil-nav-item:not(:last-child){
+    margin-bottom: 40px;
+} */
 
 .mobil-link{
     font-weight: 700;
@@ -562,15 +564,14 @@ textarea {
 
 @media screen and (min-width:1158px) {
     .hero{
-        /* min-width: 1158px; */
         max-width: 1440px;
         padding: 188px 0;
     }
 
-    .hero.section>.container{
+    /* .hero.section>.container{
         max-width: 100%;
         max-height: 100%;     
-    }
+    } */
 
     .hero-title {
         min-width: 496px;
@@ -997,6 +998,7 @@ textarea {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    margin-top: 16px;
 }
 
 .page-footer .footer-social-list {
@@ -1017,6 +1019,10 @@ textarea {
     color: #4d5ae5;
    
 }
+
+/* .logo.footer-logo{
+    margin-bottom: 16px;
+} */
 
 .logo-part {
     color: #f4f4fd;
@@ -1077,7 +1083,7 @@ textarea {
     letter-spacing: 0.02em;
     color: #fff;
     margin-top: 0;
-    /* margin-bottom: 16px; */
+    margin-bottom: 16px;
 }
 
 .footer-form-field {
@@ -1173,7 +1179,6 @@ textarea {
     .page-footer {
         padding: 100px 0;
         background: #2e2f42;
-        /* max-width: 1440px;    */
     }  
     .page-footer .container {
         flex-wrap: nowrap;     
@@ -1429,7 +1434,6 @@ textarea {
 
 .btn.modal-form {
     font-weight: 500;
-    /* font-size: 16px; */
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
@@ -1489,6 +1493,6 @@ textarea {
     .feedback-input {
         width: 100%;
     }      
-} */
+} 
 
 /* #endregion */

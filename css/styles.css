@@ -1164,12 +1164,15 @@ textarea {
         flex-direction: row;
         flex-wrap: wrap;
         text-align: left;
+        gap: 0;
     }
-    .footer-form {      
+    .footer-form {    
+        gap: 0;  
         flex-direction: row;
     }
 
     .footer-form-field {
+        max-width: 264px;
         margin-right: 24px;;
     }
 

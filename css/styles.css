@@ -5,6 +5,15 @@
     display: none;
 }
 
+.container {
+    max-width: 320px;
+    padding: 0 16px;
+    margin: 0 auto;
+
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -69,7 +78,16 @@ a {
     font-style: normal;
 } */
 
+h1,h2,h3,
+h4,h5,h6,
+p {
+    margin: 0;
+}
 
+input,
+textarea {
+    outline: none;
+}
 
 /* #endregion */ */
 
@@ -79,6 +97,9 @@ a {
     max-width: 320px;
     padding: 0 16px;
     margin: 0 auto;
+   
+    outline: 2px solid red;
+    outline-offset: -2px;
 } */
 
 .hero.section {
@@ -89,30 +110,38 @@ a {
     padding: 96px 0;
 }
 
-@media screen and (min-width: 768px) {
-    .hero.section {
+@media only screen and (min-width: 768px) {
+    /* .hero.section {
             padding: 112px 0;
         }
     .section {
             padding: 120px 0;
-        }
+        } */
     .container {
-        min-width: 768px;
+        max-width: 768px;
+
+        outline: 2px solid red;
+        outline-offset: -2px;
     }
 }
 
-@media screen and (min-width: 1158px) {
-    .hero.section {
+@media only screen and (min-width: 1158px) {
+    /* .hero.section {
             padding: 188px 0;
         }
     .section {
             padding: 120px 0;
-        }
+        } */
     .container {
         max-width: 1158px;
         padding: 0 15px;
+
+        outline: 2px solid red;
+        outline-offset: -2px;
     }
 }
+
+
 /* #endregion  */
 
 /* #region header */
@@ -120,15 +149,12 @@ a {
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
     border-bottom: 1px solid #e7e9fc;
     
-}
+} 
 
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    /* padding-left: 16px; */
-    max-width: 320px;
     margin-left: auto;
     margin-right: auto;
 
@@ -166,22 +192,21 @@ a {
 .icon-header-menu{
     display: block;
     fill: #2f2f37;
-}
+} 
 
 @media screen and (min-width: 768px) {
     .header-buttom {
         display: none;
     }
 
-    .header-container{
+    /* .header-container{
         max-width: 768px;
-    }
+    } */
 
     .header-nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* margin-right: 122px; */
     }
     
     .header-logo {
@@ -238,7 +263,6 @@ a {
 
     .contacts-link {
         display: block;
-        /* padding: 24px 0; */
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em;
@@ -284,7 +308,7 @@ a {
     }
 }
 /* #endregion */
-
+/* 
 /* #region mobile menu*/
 .mobile-menu {
     position: fixed;
@@ -306,17 +330,9 @@ a {
 
 }
 
-/* .container {
-    max-width: 320px;
-    padding: 0 16px;
-    margin: 0 auto;
-
-} */
-
 .mobile-menu-container {
     position: relative;
     max-width: 320px;
-    /* padding: 0 16px; */
     margin: 0 auto;
     padding-top: 72px;
     padding-bottom: 40px;
@@ -589,8 +605,8 @@ a {
 }
 
 .page-benefit{
-    max-width: 320px;
-    padding: 96px 16px; 
+    /* max-width: 320px; */
+    /* padding: 96px 16px;  */
     margin-left: auto;
     margin-right: auto;
 }
@@ -626,10 +642,10 @@ a {
         max-width: 768px;
         /* padding: 96px 108px; */
     }
-    .page-benefit.section>.container{
+    /* .page-benefit.section>.container{
         max-width: 100%;
         max-height: 100%; 
-    }
+    } */
 
     .benefit-list {       
         flex-direction: row;
@@ -852,14 +868,11 @@ a {
     display: flex;
     justify-content: center;
     padding: 96px 0;
-    /* width: 320px; */
-    /* margin-left: auto;
-    margin-right: auto; */
 }
 
-.portfolio.section>.container{
+/* .portfolio.section>.container{
    padding: 0 16px;
-}
+} */
 
 .portfolio-header {
     font-weight: 700;
@@ -1028,9 +1041,9 @@ a {
     gap: 72px 24px;
     text-align: center;
 
-    max-width: 320px;
+    /* max-width: 320px;
     padding: 0 16px;
-    margin: 0 auto;
+    margin: 0 auto; */
 }
 
 .footer-paragraf {
@@ -1218,10 +1231,9 @@ a {
         /* max-width: 1440px;    */
     }  
     .page-footer .container {
-        min-width: 1158px;
-        gap:0;
-        flex-wrap: nowrap;
-        
+        /* min-width: 1158px; */
+        /* gap:0; */
+        flex-wrap: nowrap;     
     }
 
     .page-footer-left{
@@ -1534,6 +1546,6 @@ a {
     .feedback-input {
         width: 100%;
     }      
-}
+} */
 
 /* #endregion */

@@ -1162,7 +1162,7 @@ textarea {
         flex-direction: row;
         flex-wrap: wrap;
         text-align: left;
-        gap: 0;
+        /* gap: 0; */
     }
     .footer-form {    
         gap: 0;  
